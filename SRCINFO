@@ -1,0 +1,16 @@
+pkgbase = paye-desktop-viewer
+	pkgdesc = PAYE Desktop Viewer is an application from HM Revenue and Customs (HMRC) that allows you to view, search and sort large numbers of employee tax codes and notices.
+	pkgver = 2.5
+	pkgrel = 1
+	url = https://www.gov.uk/paye-online/desktop-viewer
+	changelog = CHANGELOG.md
+	arch = any
+	license = GPLv2
+	makedepends = unzip
+	depends = jre
+	noextract = PDVinstall_2_5_Linux.zip
+	source = paye-desktop-viewer-2.5.zip::http://www.hmrc.gov.uk/gds/payerti/tools/pdv/PDVinstall_2_5_Linux.zip
+	md5sums = 1fd596a50e03da978f7c226e53012a85
+
+pkgname = paye-desktop-viewer
+
